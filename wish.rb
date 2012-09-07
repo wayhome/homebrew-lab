@@ -5,7 +5,7 @@ class Wish < Formula
   head 'git@github.com:ZhihuDev/wish.git', :using => :git
 
   def install
-    system "./configure"
+    system "./configure", "--prefix=#{prefix}"
     system "make"
     system "make install"
   end
