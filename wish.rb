@@ -10,5 +10,6 @@ class Wish < Formula
     system "./configure", "--prefix=#{prefix}"
     system "make"
     system "make install"
+    (prefix+'etc/bash_completion.d').install "bash-completion/wish" => "wish"
   end
 end
