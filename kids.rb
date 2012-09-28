@@ -24,7 +24,7 @@ class Kids < Formula
         launchctl load -w ~/Library/LaunchAgents/#{plist_path.basename}
 
       To start kids manually:
-        kids -c #{etc}/kids.conf -d
+        kids -c #{etc}/kids.conf
 
       To access the server:
         redis-cli -p 3388
