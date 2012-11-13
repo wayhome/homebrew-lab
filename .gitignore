@@ -1,0 +1,17 @@
+.DS_Store
+*.pyc
+*.pyo
+*.orig
+*.swp
+*.o
+*.so
+*.egg-info
+.coverage
+.installed.cfg
+tags
+bin/
+build
+eggs/*
+develop-eggs/
+parts/
+local_settings.py
