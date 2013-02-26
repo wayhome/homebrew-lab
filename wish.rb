@@ -2,9 +2,9 @@ require 'formula'
 
 class Wish < Formula
   homepage 'http://zhihu.com'
-  url 'https://github.com/ZhihuDev/wish.git', :tag => 'v0.2.4'
+  url 'http://git.in.zhihu.com/infrastructure/wish.git', :tag => 'v0.2.4'
   version 'v0.2.4'
-  head 'git@github.com:ZhihuDev/wish.git', :using => :git
+  head 'git@git.in.zhihu.com:infrastructure/wish.git', :using => :git
 
   def install
     system "./configure", "--prefix=#{prefix}"
