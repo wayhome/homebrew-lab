@@ -2,7 +2,7 @@ require 'formula'
 
 class Sink < Formula
   homepage 'http://zhihu.com'
-  head 'git@git.in.zhihu.com:infrastructure/sink.git', :using => :git
+  head 'http://git.in.zhihu.com/infrastructure/sink.git', :using => :git
 
   def install
     system "./configure", "--prefix=#{prefix}"

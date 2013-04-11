@@ -2,7 +2,7 @@ require 'formula'
 
 class Kids < Formula
   homepage 'http://zhihu.com'
-  head 'git@git.in.zhihu.com:infrastructure/kids.git', :using => :git
+  head 'http://git.in.zhihu.com/infrastructure/kids.git', :using => :git
 
   def install
     system "./configure", "--prefix=#{prefix}"

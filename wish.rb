@@ -2,7 +2,7 @@ require 'formula'
 
 class Wish < Formula
   homepage 'http://zhihu.com'
-  head 'git@git.in.zhihu.com:infrastructure/wish.git', :using => :git
+  head 'http://git.in.zhihu.com/infrastructure/wish.git', :using => :git
 
   def install
     system "./configure", "--prefix=#{prefix}"
